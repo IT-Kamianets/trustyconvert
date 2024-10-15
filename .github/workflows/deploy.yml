@@ -31,7 +31,7 @@ jobs:
         run: npm run build
       # Step 5: Create CNAME file
       - name: Create CNAME file
-        run: echo "trustyconvert.itkamianets.com" > ./CNAME
+        run: echo "trustyconvert.itkamianets.com" > ./dist/trustyconvert/browser/CNAME
 
       # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
