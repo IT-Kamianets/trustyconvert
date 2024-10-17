@@ -34,7 +34,13 @@
         </select>
       </div>
 
-      <button class="botton-swap" (click)="swap()">&#8644;</button>
+      <button class="button-swap" (click)="swap()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <path
+            d="m9.293 18.707 1.414-1.414L8.414 15H20v-2H3.586l5.707 5.707zM14.707 5.293l-1.414 1.414L15.586 9H4v2h16.414l-5.707-5.707z"
+          />
+        </svg>
+      </button>
       <div class="converter">
         <div class="convert-to">
           <input type="number" [(ngModel)]="conversionResult" min="0.0" />
